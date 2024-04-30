@@ -1,0 +1,34 @@
+/* Collapse table borders */
+table {
+    margin-left: 300px;
+    max-width: 500px;
+    border-collapse: collapse;
+  }
+  
+  /* Style table cells */
+  th {
+    padding: 10px;
+    width: 20px;
+    border: 1px solid black;
+    text-align: center; /* or center, right as needed */
+  }
+
+  td {
+    padding: 10px;
+    width: 20px;
+    border: 1px solid black;
+    text-align: center; /* or center, right as needed */
+  }
+  tr {
+    padding: 10px;
+    width: 20px;
+    border: 1px solid black;
+    text-align: left; /* or center, right as needed */
+  }
+  
+  /* Style table headers */
+  th  {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  

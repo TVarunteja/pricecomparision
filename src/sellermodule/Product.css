@@ -1,0 +1,121 @@
+.card-container {
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 20rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    z-index: -2;
+  }
+  
+  .card {
+    margin: 20px;
+    border: 2px solid #ededed;
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  .card-img {
+    
+    width: 13rem;
+    height: 8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card-title {
+    font-size: 17px;
+    margin-bottom: 1rem;
+    max-width: 200px;
+    max-height: 30px;
+    overflow: hidden;
+  }
+  
+  .card-reviews {
+    margin-bottom: 1rem;
+    display: flex;
+  }
+  
+  .rating-star {
+    color: #d5ab55;
+  }
+  
+  .total-reviews {
+    font-size: 0.9rem;
+    margin-left: 10px;
+  }
+  
+  .card-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+  .bag-icon {
+    color: #535353;
+  }
+
+
+
+
+
+  
+
+
+  .product-card {
+    background-color: #fff;
+display: flex;
+gap: 10px;
+margin-top: 20px;
+align-items: center;
+border: 1px solid #ddd;
+border-radius: 8px;
+padding: 16px;
+max-width: 1000px;
+}
+
+.product-card img {
+width: 180px;
+height: 180px;
+object-fit: cover;
+border-radius: 8px;
+}
+
+.product-details {
+margin-left: 16px;
+}
+
+.product-det h2 {
+  max-height: 30px;
+font-size: 01.2em;
+margin-top: 20px;
+}
+
+ .product-det p {
+font-size: 15px;
+color: #666;
+margin: 8px 0;
+max-width: 650px;
+height: 120px;
+overflow: hidden;
+}
+
+.price-add-to-cart {
+margin-left: 30px;
+text-align: right;
+}
+
+.price-add-to-cart p {
+  text-align: center;
+font-size: 20px;
+color: #333;
+margin-right: 8px;
+}
+
+.price-add-to-cart button {
+margin-top: 15px;
+border:1px solid #007bff;
+border: none;
+border-radius: 4px;
+padding: 8px 16px;
+cursor: pointer;
+}
